@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "tsc -w",
+    "dev": "nodemon dist/index.js",
+    "start": "node dist/index.js",
+    "dev2": "nodemon --exec ts-node src/index.ts",
+    "start2": "ts-node src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -16,5 +20,17 @@
   "bugs": {
     "url": "https://github.com/rhunce/lireddit-server/issues"
   },
-  "homepage": "https://github.com/rhunce/lireddit-server#readme"
+  "homepage": "https://github.com/rhunce/lireddit-server#readme",
+  "devDependencies": {
+    "@types/node": "^15.12.1",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.2"
+  },
+  "dependencies": {
+    "@mikro-orm/cli": "^4.5.6",
+    "@mikro-orm/core": "^4.5.6",
+    "@mikro-orm/migrations": "^4.5.6",
+    "@mikro-orm/postgresql": "^4.5.6",
+    "pg": "^8.6.0"
+  }
 }
