@@ -10,5 +10,4 @@ const main = async () => {
     debug: !__prod__
   })
 }
-
 main();
