@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/rhunce/lireddit-server#readme",
   "devDependencies": {
-    "@types/node": "^15.12.1",
+    "@types/bson": "^4.0.3",
     "nodemon": "^2.0.7",
     "ts-node": "^10.0.0",
     "typescript": "^4.3.2"
@@ -32,6 +32,14 @@
     "@mikro-orm/core": "^4.5.6",
     "@mikro-orm/migrations": "^4.5.6",
     "@mikro-orm/postgresql": "^4.5.6",
+    "@types/node": "^15.12.2",
     "pg": "^8.6.0"
+  },
+  "mikro-orm": {
+    "useTsNode": true,
+    "configPaths": [
+      "./src/mikro-orm.config.ts",
+      "./dist/mikro-orm.config.js"
+    ]
   }
 }
