@@ -23,6 +23,7 @@
   "homepage": "https://github.com/rhunce/lireddit-server#readme",
   "devDependencies": {
     "@types/bson": "^4.0.3",
+    "@types/express": "^4.17.12",
     "nodemon": "^2.0.7",
     "ts-node": "^10.0.0",
     "typescript": "^4.3.2"
@@ -33,7 +34,11 @@
     "@mikro-orm/migrations": "^4.5.6",
     "@mikro-orm/postgresql": "^4.5.6",
     "@types/node": "^15.12.2",
-    "pg": "^8.6.0"
+    "apollo-server-express": "^2.25.1",
+    "express": "^4.17.1",
+    "graphql": "^15.5.0",
+    "pg": "^8.6.0",
+    "type-graphql": "^1.1.1"
   },
   "mikro-orm": {
     "useTsNode": true,
