@@ -24,7 +24,9 @@
   "homepage": "https://github.com/rhunce/lireddit-server#readme",
   "devDependencies": {
     "@types/bson": "^4.0.3",
+    "@types/connect-redis": "^0.0.16",
     "@types/express": "^4.17.12",
+    "@types/redis": "^2.8.29",
     "nodemon": "^2.0.7",
     "ts-node": "^10.0.0",
     "typescript": "^4.3.2"
@@ -34,12 +36,16 @@
     "@mikro-orm/core": "^4.5.6",
     "@mikro-orm/migrations": "^4.5.6",
     "@mikro-orm/postgresql": "^4.5.6",
+    "@types/express-session": "^1.17.3",
     "@types/node": "^15.12.2",
     "apollo-server-express": "^2.25.1",
     "argon2": "^0.28.2",
+    "connect-redis": "^6.0.0",
     "express": "^4.17.1",
+    "express-session": "^1.17.2",
     "graphql": "^15.5.0",
     "pg": "^8.6.0",
+    "redis": "^3.1.2",
     "reflect-metadata": "^0.1.13",
     "type-graphql": "^1.1.1"
   },
